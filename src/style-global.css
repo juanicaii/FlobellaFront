@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Alieron";
+  src: url("./font/Aileron-Black.otf");
+}
+@font-face {
+  font-family: "JSWeb";
+  src: url("./font/logoJS.otf");
+}
+
+:root {
+  /* Colores */
+  --azulOscuro: #232182;
+  --azul: #342c93;
+  --amarillo: #fcce06;
+  --verde: #20d375;
+  --verdeClaro: #38f094;
+  --verdeAgua: #6bf7ad;
+  /* Fuente */
+  --alieron: "AileronRegular";
+  --alieronBlack: "Alieron";
+  --poppins: "Poppins";
+  --LogoJS: "JSWeb";
+}
+
+.headerBackground {
+  background-image: url("/img/header.png");
+  background-position: top;
+  height: 750px;
+  margin: 0;
+  width: 100%;
+
+  margin-bottom: 30px;
+}
+.info,
+.inforedes {
+  margin-top: 50px;
+}
+.inforedes h4,
+.inforedes h1 {
+  margin-left: 50px;
+}
+.background {
+}
+.cardPublicidad {
+  width: 30%;
+
+  padding: 20px;
+}
+.botonNazi {
+  margin: 0 auto;
+  display: block;
+}
+.headerMobile,
+#headerMobile {
+  display: none;
+}
+.stiky::after {
+  transition: all 3s ease;
+}
+.stiky {
+  position: fixed;
+  background-color: rgb(32, 211, 117);
+
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 4px 2px -2px gray;
+  width: 100%;
+}
+.header {
+  padding: 10px;
+}
+@media (max-width: 436px) {
+  .cardPublicidad {
+    width: 80%;
+    height: 100%;
+  }
+}
+/* cambio mobile */
+@media (max-width: 768px) {
+  .headerBackground {
+    background-attachment: fixed;
+  }
+  .link {
+    display: block !important;
+    margin-left: 0;
+  }
+  .cardPublicidad {
+    width: 60%;
+    height: 100%;
+  }
+
+  .inforedes h1,
+  .inforedes h4 {
+    margin-left: 0px;
+  }
+
+  .header,
+  #headerDesktop {
+    display: none;
+  }
+  .tituloSeccion,
+  .subtituloSeccion,
+  .descripcionSeccion {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .divnsotros {
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .background {
+    display: none;
+  }
+  .divcollapse {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+  }
+  .divBoton {
+    width: 272px;
+    margin-left: -5px;
+  }
+
+  .botonCollapse {
+    width: 261px;
+    font-size: 12px;
+  }
+  .botonCollapse span {
+    font-size: 12px;
+  }
+  .descripcionSeccion {
+    font-size: 17px;
+    margin: auto;
+  }
+  .iconosDiseno {
+    justify-content: center;
+  }
+  .logoFooter {
+    border-right: none;
+    border-bottom: 3px solid var(--verde);
+  }
+  .logoFooter img {
+    margin-left: 40px;
+  }
+  .text {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 12px;
+    margin-left: auto !important;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+  }
+  .iconFooter {
+    font-size: 30px;
+  }
+  .headerMobile,
+  #headerMobile {
+    display: block;
+  }
+  .boton {
+    padding: 8px 23px;
+    margin-bottom: 20px;
+  }
+  .bars {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .link {
+    font-size: 12px;
+    margin-left: 0;
+  }
+  .info {
+    margin-top: 60px;
+  }
+  .divBoton {
+    margin-left: -42px;
+  }
+  .cardPublicidad {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .link {
+    padding: 10px;
+  }
+  .tituloSeccion {
+    font-size: 2em;
+  }
+  .subtituloSeccion {
+    font-size: 1em;
+  }
+  .descripcionSeccion {
+    font-size: 17px;
+  }
+  .text {
+    margin-left: 100px;
+    font-size: 13px;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+  }
+  .iconFooter {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,12 @@
+.boton {
+  border-radius: 28px;
+  border: none;
+  padding: 8px 30px;
+  font-family: var(--alieron);
+  margin-top: 20px;
+  font-weight: 700;
+  justify-content: center;
+}
+.boton:hover {
+  transform: scale(1);
+}

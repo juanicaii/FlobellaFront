@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--azulOscuro);
+}
+.logoFooter {
+  padding: 30px;
+  margin: 20px 50px;
+  border-right: 3px solid var(--verde);
+}
+.icon {
+  margin: 0 40px;
+  padding: 0px 40px;
+}
+. {
+  font-size: 30px;
+}
+.frase {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: var(--alieronBlack);
+}
+.frase p {
+  font-size: 20px;
+  color: var(--verde);
+  font-family: var(--alieron);
+}
+.copy {
+  color: white;
+  text-align: center;
+  font-family: var(--poppins);
+}
+.copy span {
+  font-family: var(--LogoJS);
+  color: red;
+}

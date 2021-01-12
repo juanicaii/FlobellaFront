@@ -1,0 +1,56 @@
+.tituloSeccion {
+  color: var(--azulOscuro);
+  font-family: var(--alieronBlack);
+  font-weight: bold;
+  font-size: 3.1em;
+  margin-left: 25px;
+}
+.subtituloSeccion {
+  color: #000;
+  font-family: var(--alieron);
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-left: 30px;
+}
+.descripcionSeccion {
+  color: var(--azul);
+  font-family: var(--poppins);
+  font-size: 20px;
+  width: 70%;
+  margin-left: 30px;
+}
+.imagenSeccion {
+  width: 80%;
+  height: 100%;
+}
+.textIcon {
+  font-size: 16px;
+  color: var(--azul);
+  font-family: var(--alieronBlack);
+}
+
+.card3 {
+  height: 500px;
+  border-radius: 22px;
+  background-color: var(--verde);
+  border: none;
+  box-shadow: 7px 8px 31px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.card3 .subtitulo {
+  font-family: var(--alieronBlack);
+  color: var(--azul);
+}
+.diseno {
+  font-family: var(--alieron);
+}
+.ticks {
+  font-family: var(--alieron);
+  padding: 4px;
+  font-size: 14px;
+}
+.descripcion {
+  display: flex;
+  justify-content: start;
+}

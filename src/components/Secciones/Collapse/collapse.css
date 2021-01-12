@@ -1,0 +1,33 @@
+.botonCollapse {
+  border-radius: 28px;
+  border: none;
+  width: 389px;
+  padding: 10px;
+  background-color: var(--verde);
+  color: var(--azul);
+  font-family: var(--alieronBlack);
+}
+.botonCollapse:focus {
+  outline: none;
+}
+.divBoton {
+  border: var(--verde) 1px solid;
+  width: 400px;
+  border-radius: 28px;
+  padding: 4px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.text {
+  margin-left: 70px;
+  font-size: 13px;
+  width: 70%;
+  color: var(--azul);
+  font-family: var(--Poppins);
+}
+.mas {
+  color: white;
+  font-family: var(--alieronBlack);
+  margin-left: 20px;
+  font-size: 20px;
+}
